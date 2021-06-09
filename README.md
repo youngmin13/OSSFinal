@@ -28,17 +28,22 @@ To add your own schedule, you can display the following code in the event. You c
 What I have added are different colors for weekends, an alarm that displays the date when you press the date, changing the day of the week into Korean, a function to display +more if there are more than 4 schedules in a day, and the school website I have linked the weather. I also tried linking with Google Calendar, but unfortunately it failed.
 
 The code below specifies blue for Saturday and red for Sunday.
+
 <img width="245" alt="주말 색깔" src="https://user-images.githubusercontent.com/54584489/121362544-1e31ce00-c971-11eb-9721-e1bd24d79d67.png">
 
 
 Also, when you click on a date, the year, month, and day of that date are displayed.
+
 <img width="457" alt="누르면 날짜" src="https://user-images.githubusercontent.com/54584489/121362325-fb9fb500-c970-11eb-9ff2-12cb8a3f9d95.png">
 
 
 If there are more than 4 schedules in one day, the '+more' option is displayed.
+
 <img width="638" alt="more" src="https://user-images.githubusercontent.com/54584489/121362598-2b4ebd00-c971-11eb-9480-2cb7b9bb08e9.png">
 
-///일정에 링크///
+On June 1st, we registered links to the school website and weather information. Through each link, you can check today's weather and directly access the school website.
+
+<img width="602" alt="스크린샷 2021-06-09 오후 10 24 50" src="https://user-images.githubusercontent.com/54584489/121363288-c5af0080-c971-11eb-9b8a-9b3307ebed24.png">
 
 
 
