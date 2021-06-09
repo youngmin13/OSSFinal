@@ -14,7 +14,9 @@ First of all, create the basis of the basic calendar as shown below.
 <img width="514" alt="init" src="https://user-images.githubusercontent.com/54584489/121361683-7d431300-c970-11eb-88a5-8c684bb7a779.png">
 
 Here, you need the css file and js file attached above. So, add the necessary files as follows.
-///script 사진///
+
+<img width="433" alt="script" src="https://user-images.githubusercontent.com/54584489/121361963-b1b6cf00-c970-11eb-8156-d2f0644ee6f4.png">
+
 
 
 To add your own schedule, you can display the following code in the event. You can register the name of the schedule through 'title' and indicate the schedule time with start and end. Simply changing the color of one schedule can be done in the event, not by editing the css file.
