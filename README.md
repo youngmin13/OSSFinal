@@ -20,7 +20,9 @@ Here, you need the css file and js file attached above. So, add the necessary fi
 
 
 To add your own schedule, you can display the following code in the event. You can register the name of the schedule through 'title' and indicate the schedule time with start and end. Simply changing the color of one schedule can be done in the event, not by editing the css file.
-///일정 코드///
+
+<img width="340" alt="일정" src="https://user-images.githubusercontent.com/54584489/121362150-dca12300-c970-11eb-9df3-88c18f5d2397.png">
+
 
 What I have added are different colors for weekends, an alarm that displays the date when you press the date, changing the day of the week into Korean, a function to display +more if there are more than 4 schedules in a day, and the school website I have linked the weather. I also tried linking with Google Calendar, but unfortunately it failed.
 
