@@ -11,7 +11,7 @@ I think that checking the date and schedule is the most basic thing in life. Als
 
 ### How do I get started?
 First of all, create the basis of the basic calendar as shown below.
-///초기 코드 사진///
+<img width="514" alt="init" src="https://user-images.githubusercontent.com/54584489/121361683-7d431300-c970-11eb-88a5-8c684bb7a779.png">
 
 Here, you need the css file and js file attached above. So, add the necessary files as follows.
 ///script 사진///
