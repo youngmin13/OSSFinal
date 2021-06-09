@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8' />
+  <link href='new/main_1.css' rel='stylesheet' />
+  <link href='new/main_2.css' rel='stylesheet' />
+  <script src='new/main_1.js'></script>
+  <script src='new/main_2.js'></script>
+  <script src='new/main_3.js'></script>
+  <script type='text/javascript' src='new/google-calendar.js'></script>
+  
+  
+  
+  <script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+        var calendarEl = document.getElementById('calendar');
+
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          plugins: ['interaction', 'dayGrid'],
+
+          //추가한 내용 : 달력누르면 해당 날짜 나오도록
+          dateClick: function (info) {
+            alert('Have a nice day\nDate: ' + info.dateStr);
+          },
+          header: {
+            left: 'prevYear,prev,next,nextYear today',
+            center: 'title', 
+            right: 'dayGridMonth,dayGridWeek,dayGridDay'
+          },
+          defaultDate: '2021-06-01',
+          navLinks: true, // can click day/week names to navigate views
+          editable: true,
+          eventLimit: true, // allow "more" link when too many events
+
+          droppable: true, // this allows things to be dropped onto the calendar
+          drop: function (info) {
+            // is the "remove after drop" checkbox checked?
+            if (checkbox.checked) {
+              // if so, remove the element from the "Draggable Events" list
+              info.draggedEl.parentNode.removeChild(info.draggedEl);
+            }
+          },
+          locale: 'ko', //한글로 바꿈
+
+          googleCalendarApiKey: 'AIzaSyDUM7dSUaTfdVNzmt_z4pAGQTJYbpgIYqc',
+
+          //+more출력
+          dayMaxEventRows: true, // for all non-TimeGrid views
+          views: {
+            timeGrid: {
+              dayMaxEventRows: 6 // adjust to 6 only for timeGridWeek/timeGridDay
+            }
+          },
+          
+          events: [
+            {
+              //안됨
+              googleCalendarId: '21600620@handong.edu',
+              textColor: '##FF0000'
+            },
+            {
+              //날씨 추가
+              start: '2021-06-01',
+              url: 'https://weather.com/weather/today/l/36.10,129.39?par=google',
+              title: 'Weather Forecast',
+              textColor: 'BLACK',
+              color: 'YELLOW'
+            },
+            {
+              title: 'Hisnet',
+              url: 'http://hisnet.handong.edu/',  //학교 홈페이지 링크
+              start: '2021-06-01',
+              color: '#0000FF', 
+              textColor: '#FF0000'
+            },
+            {
+              title: 'Memorial Day',
+              start: '2021-06-06'
+            },
+            {
+              title: '홍신 교수님 면담',
+              start: '2021-06-07',
+              color: '#FF0000', 
+              textColor: "#FFFF00"
+            },
+            {
+              title: '김광 교수님 면담',
+              start: '2021-06-10',
+              color: '#FF0000',
+              textColor: "#FFFF00"
+            },
+            {
+              title: 'OSSLab Final\n Presentation',
+              start: '2021-06-12'
+            },
+            {
+              title: 'Data Structure',
+              start: '2021-06-17'
+            },
+            {
+              title: '미분방정식과 응용',
+              start: '2021-06-18'
+            },
+            {
+              title: 'Operating System',
+              start: '2021-06-18'
+            },
+            {
+              title: 'OS 과제',
+              start: '2021-06-18'
+            },
+            {
+              title: 'End of semester',
+              start: '2021-06-18'
+            },
+            {
+              title: 'EAP 준비',
+              start: '2021-06-18'
+            },
+            
+          ],
+
+        });
+
+        
+
+        calendar.render();
+      });
+
+    </script>
+<style>
+  body {
+    margin: 40px 10px;
+    padding: 0;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+
+  #calendar {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  
+</style>
+</head>
+
+<body>
+
+  <div id='calendar'></div>
+  
+
+  
+</body>
+
+</html>
