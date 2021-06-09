@@ -7,14 +7,16 @@ Since it is a project that composes a calendar, I tried adding basic schedules, 
 
 ### **Why is this project useful?**
 
-I think that checking the date and schedule is the most basic thing in life. Also, Modern society uses electronic calendars on laptops and cell phones more than paper calendars. Therefore, I think that it will be a great motivation for studying because the project was conducted with the most basic topics in modern society. In addition, by making your own calendar, you can decorate the calendar according to your personal taste and display your schedule in an easy-to-view manner.
+I think that checking the date and schedule is the most basic thing in life. Also, Modern society uses electronic calendars on laptops and cell phones more than paper calendars. 
+Therefore, I think that it will be a great motivation for studying because the project was conducted with the most basic topics in modern society. 
+In addition, by making your own calendar, you can decorate the calendar according to your personal taste and display your schedule in an easy-to-view manner.
 
 ### **How do I get started?**
 First of all, create the basis of the basic calendar as shown below.
 
 <img width="514" alt="init" src="https://user-images.githubusercontent.com/54584489/121361683-7d431300-c970-11eb-88a5-8c684bb7a779.png">
 
-Here, you need the css file and js file attached above. So, add the necessary files as follows.
+Here, you need the css file and js file attached below. So, add the necessary files as follows.
 
 <img width="433" alt="script" src="https://user-images.githubusercontent.com/54584489/121361963-b1b6cf00-c970-11eb-8156-d2f0644ee6f4.png">
 
