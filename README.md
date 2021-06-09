@@ -1,15 +1,15 @@
 ##### 21600620 Young-min Jeon / 21-1 Opensource Software Lab Final project
-# Make My Calendar
-### What does this project do?
+# <span style="color:yellow">Make My Calendar</span>
+### <span style="color:yellow">What does this project do?</span>
 This project was carried out with the motivation to create a calendar for everyday use by myself. 
 Through this project, you can practice basic understanding and configuration of JavaScript and web services.
 Since it is a project that composes a calendar, I tried adding basic schedules, changing colors, and adding various additional functions.
 
-### Why is this project useful?
+### <span style="color:yellow">Why is this project useful?</span>
 
 I think that checking the date and schedule is the most basic thing in life. Also, Modern society uses electronic calendars on laptops and cell phones more than paper calendars. Therefore, I think that it will be a great motivation for studying because the project was conducted with the most basic topics in modern society. In addition, by making your own calendar, you can decorate the calendar according to your personal taste and display your schedule in an easy-to-view manner.
 
-### How do I get started?
+### <span style="color:yellow">How do I get started?</span>
 First of all, create the basis of the basic calendar as shown below.
 
 <img width="514" alt="init" src="https://user-images.githubusercontent.com/54584489/121361683-7d431300-c970-11eb-88a5-8c684bb7a779.png">
@@ -48,7 +48,7 @@ On June 1st, we registered links to the school website and weather information. 
 
 
 
-### Contrinution & More help
+### <span style="color:yellow">Contrinution & More help</span>
 There is a refernce to this project, which is existing service called fullcalendar. I built a project based on this.
 However, I basically used the skeleton that composes the calendar, but I found the css file such as color, the composition of each schedule, and the url link by myself.
 Of course, detailed explanations are also provided on the fullcalendar website, so it would be good to refer to them. Also, if you need any assistance during the process of this program, please contact me through my e-mail.
@@ -57,6 +57,6 @@ Below is the fullcalendar homepage & my e-mail address
 - [Full calendar](http://fullcalendar.io/)
 - 21600620@handong.edu
 
-### Presentation Video (YouTube) Link
+### <span style="color:yellow">Presentation Video (YouTube) Link</span>
 
-[My Presentation Video](https://www.naver.com)
+<span style="color:red">[My Presentation Video](https://www.naver.com)</span>
