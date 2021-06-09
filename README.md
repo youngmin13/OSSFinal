@@ -11,6 +11,7 @@ I think that checking the date and schedule is the most basic thing in life. Als
 
 ### How do I get started?
 First of all, create the basis of the basic calendar as shown below.
+
 <img width="514" alt="init" src="https://user-images.githubusercontent.com/54584489/121361683-7d431300-c970-11eb-88a5-8c684bb7a779.png">
 
 Here, you need the css file and js file attached above. So, add the necessary files as follows.
@@ -26,11 +27,16 @@ To add your own schedule, you can display the following code in the event. You c
 
 What I have added are different colors for weekends, an alarm that displays the date when you press the date, changing the day of the week into Korean, a function to display +more if there are more than 4 schedules in a day, and the school website I have linked the weather. I also tried linking with Google Calendar, but unfortunately it failed.
 
-///css 파일에 색깔///
+The code below specifies blue for Saturday and red for Sunday.
+<img width="245" alt="주말 색깔" src="https://user-images.githubusercontent.com/54584489/121362544-1e31ce00-c971-11eb-9721-e1bd24d79d67.png">
 
-///누르면 날짜 보이는거///
 
-///+more///
+Also, when you click on a date, the year, month, and day of that date are displayed.
+<img width="457" alt="누르면 날짜" src="https://user-images.githubusercontent.com/54584489/121362325-fb9fb500-c970-11eb-9ff2-12cb8a3f9d95.png">
+
+
+If there are more than 4 schedules in one day, the '+more' option is displayed.
+<img width="638" alt="more" src="https://user-images.githubusercontent.com/54584489/121362598-2b4ebd00-c971-11eb-9480-2cb7b9bb08e9.png">
 
 ///일정에 링크///
 
