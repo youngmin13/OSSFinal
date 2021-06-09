@@ -1,5 +1,5 @@
 ##### 21600620 Young-min Jeon / 21-1 Opensource Software Lab Final project
-# <span style='color:yellow'>Make My Calendar</span>
+# **Make My Calendar**
 ### <span style="color:yellow">What does this project do?</span>
 This project was carried out with the motivation to create a calendar for everyday use by myself. 
 Through this project, you can practice basic understanding and configuration of JavaScript and web services.
