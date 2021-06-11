@@ -61,4 +61,4 @@ Below is the fullcalendar homepage & my e-mail address
 
 ### **Presentation Video (YouTube) Link**
 
-<span style="color:red">[My Presentation Video](https://www.naver.com)</span>
+<span style="color:red">[My Presentation Video](https://youtu.be/-F63f_DkxlQ)</span>
